@@ -14,7 +14,7 @@ node {
 }
 
 stage('Build image') {
-  app = docker.build("kth3819/myrepo")
+  app = docker.build("kth3819/jenkins")
 }
 
 stage('Push image') {
